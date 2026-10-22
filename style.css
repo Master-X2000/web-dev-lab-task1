@@ -286,7 +286,7 @@ form {
     border-radius: 10px;
     box-shadow: var(--BOX-SHADOW-2);
     color: var(--COLOR-TXT);
-    z-index:5;
+    z-index:6;
     border-top: 8px solid var(--COLOR-PRIMARY-BG);
     overflow: hidden;
     visibility: hidden;
@@ -294,9 +294,27 @@ form {
 
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    z-index: 5;
+    pointer-events: none;
+    transition: opacity .3s ease, visibility .3s ease;
+}
+
 .prompt.show {
     top: 1rem;
     visibility: visible;
+}
+
+.prompt.show ~ .overlay {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .prompt-content h1 {

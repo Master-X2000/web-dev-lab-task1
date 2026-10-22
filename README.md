@@ -32,21 +32,21 @@ Users should be able to:
 
 #### Signup page
 
-  [](./images/sign-up%20Desktop%20view.jpg)
+  ![](./images/sign-up%20Desktop%20view.jpg)
 
   Desktop view
 
-  [](./images/sign-up%20Mobile%20view.jpg)
+  ![](./images/sign-up%20Mobile%20view.jpg)
 
   Mobile view
 
 #### Registration Page
 
-  [](./images/register%20desktop%20view.jpg)
+  ![](./images/register%20desktop%20view.jpg)
 
   Desktop view
 
-  [](./images/register%20mobile%20view.jpg)
+  ![](./images/register%20mobile%20view.jpg)
 
   Mobile view
 

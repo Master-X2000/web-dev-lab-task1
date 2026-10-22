@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ||Link to Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link to JS Script -->
+    <script defer src="main.js"></script>
+
+    <!-- Google icons links -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+
+    <!-- Font Awesome icon links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Login & Sign Up Page</title>
+</head>
+<body>
+
+    <div class="prompt">
+        <div class="prompt-content">
+            <h1>Registration Complete<span>!</span></h1>
+            <p>Thank you for registering.😁😁 <br> Your account has been successfully created🫴.</p>
+        </div>
+
+        <div class="prompt-footer">
+            <button class="prompt-btn">Continue</button>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div class="form-box login">
+            <form action="./dashboard.html" class="login-form">
+                <a href="./dashboard.html" class="dashboard-link"></a>
+                <h1>Login</h1>
+
+                <div class="input-box">
+                    <input type="text" placeholder="Username" class="login-username">
+                    <span class="material-symbols-rounded icon">account_circle</span>
+                    <div class="error">Please Enter your username</div>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" placeholder="Password" class="login-password">
+                    <span class="material-symbols-rounded icon">lock</span>
+                    <div class="error"></div>
+                </div>
+                
+                <button type="submit" class="btn login-submit-btn">Login</button>
+
+                <p>Or login with social platforms</p>
+
+                <div class="social-icon">
+                    <a href="#" aria-label="Google">
+                        <i class="fab fa-google icon"></i>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <i class="fab fa-facebook-f icon"></i>
+                    </a>
+                    <a href="#" aria-label="Apple">
+                        <i class="fa-brands fa-apple icon"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in icon"></i>
+                    </a>
+                </div>
+                
+                <div class="forget-link">
+                    <a href="./forgot-password.html">
+                        Forgot Password?
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <form action="./dashboard.html" class="register-form">
+                <h1>Register</h1>
+
+                <div class="input-box">
+                    <input type="text" placeholder="Username" class="register-username">
+                    <span class="material-symbols-rounded icon">account_circle</span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" placeholder="email@example.com" class="register-email">
+                    <span class="material-symbols-rounded icon">email</span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" placeholder="Password" class="register-password">
+                    <span class="material-symbols-rounded icon">lock</span>
+                    <div class="error"></div>
+                </div>
+                
+                <button type="submit" class="btn register-submit-btn">Register</button>
+
+                <p>Or register with social platforms</p>
+
+                <div class="social-icon">
+                    <a href="#" aria-label="Google">
+                        <i class="fab fa-google icon"></i>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <i class="fab fa-facebook-f icon"></i>
+                    </a>
+                    <a href="#" aria-label="Apple">
+                        <i class="fa-brands fa-apple icon"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in icon"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, Welcome!</h1>
+                <p>Don't have an account?</p>
+                <button class="btn register-btn">
+                    Register
+                </button>
+            </div>
+
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Already have an account?</p>
+                <button class="btn login-btn">
+                    Login
+                </button>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>

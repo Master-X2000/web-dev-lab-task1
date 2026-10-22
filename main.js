@@ -32,7 +32,7 @@ socialIconBtn.forEach(socialIcon => {
 
         promptBtn.addEventListener("click", event => {
             prompt.classList.remove("show");
-        })
+        });
     });
 });
 
@@ -109,6 +109,12 @@ registerForm.addEventListener('submit', event => {
 
     if(errorCount === 0 ) { // Move to dashboard if no errors
         prompt.classList.add("show");
+        const promptContent = document.querySelector('.prompt-content');
+        promptContent.innerHTML = `<h1>Registration Complete<span>!</span></h1>
+                                    <p>
+                                        Thank you for registering.😁😁 <br> Your account has been successfully created🫴.
+                                    </p>`;
+        prompt.classList.add('show'); 
         
         promptBtn.addEventListener("click", event => {
             prompt.classList.remove("show");

@@ -21,12 +21,16 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - Navigate through the sign-up and registration pages with ease.
 - Make you use of the dashboard.
-- View the prompt on certain conditions
+- View the prompt on certain conditions.
+- Access the dashboard when loged in. 
+- Logout of the dashboard.
+- Making use of the web storage API, user shoud be able to create an accout and login with the initial entries. 
+- Change password when forgotten. 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/master-x2000/fylo-landing/)
-- Live Site URL: [Add live site URL here](https://master-x2000.github.io/fylo-landing/)
+- Solution URL: [Add solution URL here](https://github.com/master-x2000/web-dev-lab-task1/)
+- Live Site URL: [Add live site URL here](https://master-x2000.github.io/web-dev-lab-task1/)
 
 ### Screenshots 
 

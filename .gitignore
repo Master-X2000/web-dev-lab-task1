@@ -1,0 +1,25 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+
+# Local environment files (keep safe example templates)
+.env
+.env.*
+!.env.example
+
+# Local IDE settings
+.idea/

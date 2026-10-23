@@ -54,6 +54,16 @@ Users should be able to:
 
   Mobile view
 
+#### Forgot Password Page
+
+  ![](./images/forgot%20pasword%20desktop%20.jpg)
+
+  Desktop view
+
+  ![](./images/forgot%20pasword%20mobile.jpg)
+
+  Mobile view
+
 ## My process
 
 ### Built with

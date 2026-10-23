@@ -56,11 +56,11 @@ Users should be able to:
 
 #### Forgot Password Page
 
-  ![](./images/forgot%20pasword%20desktop%20.jpg)
+  ![](./images/forgot-pasword-desktop.jpg)
 
   Desktop view
 
-  ![](./images/forgot%20pasword%20mobile.jpg)
+  ![](./images/forgot-pasword-mobile.jpg)
 
   Mobile view
 
